@@ -1,9 +1,13 @@
 {
   "name": "portfolio",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "v16.15.1",
+    "npm": "8.11.0"
   },
   "dependencies": {
     "bootstrap": "^5.2.1",
@@ -25,5 +29,13 @@
     "@babel/core": "^7.19.3",
     "@babel/node": "^7.19.1",
     "@babel/preset-env": "^7.19.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harrieguru/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Harrieguru/portfolio/issues"
+  },
+  "homepage": "https://github.com/Harrieguru/portfolio#readme"
 }
