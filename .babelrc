@@ -1,0 +1,4 @@
+{
+    "presets":["@babel/cli","@babel/preset-env","@babel/core","@babel/node"],
+    "type": "module"
+}
