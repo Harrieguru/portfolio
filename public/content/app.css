@@ -2,12 +2,18 @@
    301221345
    1/10/2022
  */
+html{
+    scroll-behavior: smooth;
+}
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Condensed', sans-serif
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    overflow-x: hidden;
 }
 
 .atis{
@@ -19,13 +25,34 @@
     
 }
 
+#home,#about,#services,#projects,#contact{
+    width: 100%;
+    height: auto;
+}
+
 nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 35px;
-    padding-left: 2%;
-    padding-right: 2%;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.navbar-nav{
+    position: relative;
+    left: 800px;
+    
+}
+.nav-item {
+    color: #42855B;
+}
+
+.about-info{
+    padding-top: 200px;
+    padding-bottom: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-info h2{
+    padding-top: 80px ;
 }
 
 .logo{
@@ -117,7 +144,7 @@ h4{
 
 .main img{
     position: relative;
-    top: 350px;
+    top: 120px;
     width: 20%;
     height: 20%;
     border-radius: 5%;
@@ -298,6 +325,7 @@ h4{
     text-align: center;
     font-weight: bold;
     font-size: larger;
+    padding-top: 20px;
 }
 
 .projbox{
@@ -325,6 +353,7 @@ h4{
 
 .projbox h4{ 
    font-weight: bold;
+   margin-top: 20px;
    
 }
 
@@ -359,6 +388,7 @@ h4{
     left: 720px;
     text-decoration: none;
     color: #F2F2F2;
+    padding-bottom: 20px;
 }
 
 .contact a:hover{
