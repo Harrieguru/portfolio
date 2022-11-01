@@ -1,0 +1,450 @@
+/* Harriet Atieno Odhiambo
+   301221345
+   1/10/2022
+ */
+ html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+.atis{
+    height: 110vh;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#home,#about,#services,#projects,#contact{
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.navbar-nav{
+    position: relative;
+    left: 800px;
+    
+}
+.nav-item {
+    color: #42855B;
+}
+
+.container form{
+    width: 60%;
+    position: absolute;
+    top: 40%;
+    right: 25%;
+}
+
+.about-info{
+    padding-top: 200px;
+    padding-bottom: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-info h2{
+    padding-top: 80px ;
+}
+
+.logo{
+    color: #F2F2F2;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: #42855B;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 12px;
+}
+
+nav ul li a{
+    color: #F2F2F2;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+
+
+}
+
+nav ul li a:hover{
+    color: #42855B;
+    transition: .3s;
+}
+
+.content{
+    position:absolute;
+    top: 25%;
+    left: 5%;
+    transform: translateY(-40);
+}
+
+h1{
+    color: #F2F2F2;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3{
+    color: #F2F2F2;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+
+.intro form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.intro form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #42855B;
+    outline: none;
+    border-radius: 30px;
+}
+
+
+.intro form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #42855B;
+    color: #F2F2F2;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+
+.main img{
+    position: relative;
+    top: 120px;
+    width: 20%;
+    height: 20%;
+    border-radius: 5%;
+}
+
+.about-info{
+    position: relative;
+    top: 300px;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: large;
+    font-weight: bolder;
+    letter-spacing: 2px;
+   
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about-info h2{
+     color: #4C0033;
+     font-size: 75px;
+     text-transform: capitalize;
+     margin-bottom: 20px;
+}
+
+.about-info h5{
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.text h5{
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+button{
+    background-color: #42855B;
+    color: #F2F2F2;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: black;
+    border: 2px solid #C7F2A4;
+    cursor: pointer;
+}
+
+
+.service{
+    position: relative;
+    top: 1300px;
+    color: #F2F2F2;
+    background-color: #06283D;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.name h2{
+
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.mod{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background:#42855B;
+    border-radius: 20px ;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #4C0033; /*or #C7F2A4 */
+
+
+}
+
+h4{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #4C0033;
+
+}
+
+h4{
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+
+.cont p{
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    
+}
+
+.cont .btn{
+    background-color: #42855B;
+    color: #F2F2F2;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.cont .btn:hover{
+    background-color: black;
+    border: 2px solid #C7F2A4;
+    cursor: pointer;
+}
+
+.contact{
+    position: relative;
+    top: 1200px;
+    padding: 12px auto;
+    margin: 5px auto;
+}
+
+.contact{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 1900px;
+    background-color: #4C0033;
+    margin-top: 0;
+}
+
+.about_me a {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.contact p{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 20px;
+}
+
+.projbox{
+    margin-top: 30px;
+    color: #000;
+    position: absolute;
+    top: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.projbox h1{  
+   position: absolute;
+   bottom: 400px;
+   color: #000;
+   margin: 20px auto;
+   padding: 20px auto;
+   font-size: 45px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 2px;
+}
+
+.projbox h4{ 
+   font-weight: bold;
+   margin-top: 20px;
+   
+}
+
+.proj{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background:#42855B;
+    border-radius: 20px ;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* .proj i{
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #4C0033; /*or #C7F2A4 }*/
+
+
+
+.desc{
+    font-size: large;
+    font-weight: bold;
+}
+
+.contact a{
+    position: relative;
+    width: 5%;
+    left: 720px;
+    text-decoration: none;
+    color: #F2F2F2;
+    padding-bottom: 20px;
+}
+
+.contact a:hover{
+    color: #C7F2A4;
+}
+
+.form{
+   position: absolute;
+   top: 1400px;
+   background-color: #06283D;
+   width: 1519px;
+   padding: 20px 80px;
+}
+
+.form label{
+   color: #D7C0AE;
+   
+}
+
+.form .row{
+   margin: 40px auto;
+   padding: 10px;
+}
+
+.form .btn{
+   background-color: #42855B;
+}
+
+.form .btn:hover{
+   background-color: #000;
+}
+
+/* .sub{
+    position: relative;
+    width: 10%;
+    text-align: center;
+    left: 690px;
+    margin-bottom: 10px;
+    background-color: #42855B;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.sub:hover{
+    background-color: black;
+    border: 2px solid #C7F2A4;
+    cursor: pointer;
+    color: #F2F2F2;
+} */
+
+
